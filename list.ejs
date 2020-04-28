@@ -1,0 +1,33 @@
+<% include head.ejs %>
+<p> <% =: users | map: 'name' | join %> </p>
+<% if(title) { %>
+  <h1><% = title %> </h1>
+<% } %>
+<ul>
+    <li>Escaped value <% = value %> </li>
+    <li>Unescaped value <% == value %> </li>
+    <li>Generated escaped tag <%%= value %> </li>
+</ul>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To Do List</title>
+  </head>
+
+  <body>
+
+    <h1> <%= kindOfDay %></h1>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <form class="" action="/" method="post">
+      <input type="text" name="newItem">
+      <button type="sumbit" name="button">Add</button>
+    </form>
+  </body>
+
+</html>
