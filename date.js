@@ -17,10 +17,6 @@ exports.getDate = function () {
 }
 
 
-
-
-
-
 module.exports.getDay =getDay;
 
 function getDay() {
