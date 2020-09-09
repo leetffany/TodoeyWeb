@@ -1,4 +1,4 @@
-# An web-based todo list  
+# TodoeyWeb
 HTML, CSS, express.js, node.js, EJS(Embedded javascript templating)  
 
 # Capability 
